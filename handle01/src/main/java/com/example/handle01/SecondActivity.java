@@ -50,6 +50,7 @@ public class SecondActivity extends AppCompatActivity {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+//        ....
         thead.handler.sendEmptyMessage(1);
         handler.sendEmptyMessage(1);
     }
